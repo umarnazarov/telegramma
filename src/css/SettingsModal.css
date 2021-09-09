@@ -1,0 +1,126 @@
+.setting-container {
+    position: absolute;
+    z-index: 2;
+    top:150px;
+    left: 63%;
+    background-color: #282E33;
+    color: #fff;
+    transform: translate(-50%) scale(0); 
+    width: 350px;
+    opacity: 0;
+    border-radius: 5px;
+    padding: 15px 20px;
+    box-shadow:
+  0 0.7px 1.9px rgba(0, 0, 0, 0.026),
+  0 1.6px 4.3px rgba(0, 0, 0, 0.037),
+  0 2.9px 7.7px rgba(0, 0, 0, 0.046),
+  0 4.8px 12.8px rgba(0, 0, 0, 0.054),
+  0 7.9px 21.2px rgba(0, 0, 0, 0.063),
+  0 13.9px 37px rgba(0, 0, 0, 0.074),
+  0 30px 80px rgba(0, 0, 0, 0.1)
+;
+    transition: opacity .2s ease-out
+}
+
+.setting-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setting-top .setting-top-text {
+    font-size: 16px;
+    color: #B9BBBD;
+}
+
+.setting-user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    right: 20px;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #313B43;
+    width: 113%;
+    text-align: center;
+}
+
+.setting-user-info .setting-user-img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%
+}
+
+.setting-user-info .setting-user-btn {
+    font-size: 13.5px;
+    cursor: pointer;
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #1966B3;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px
+}
+
+.setting-user-bio-btn {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.setting-user-s-text {
+    font-size: 13px
+}
+
+.set-icon {
+    font-size: 20px;
+    font-weight: normal;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.setting-user-m-text {
+    font-size: 16px
+}
+
+.setting-status {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.invis-inp {
+    display: none
+}
+
+#SetModalOn {
+    opacity: 1;
+    transform: translate(-50%) scale(1); 
+
+}
+
+#user-name-ch {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-ch {
+    background: #4c5a65;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 2px;
+    color: white;
+    font-weight: 700;
+
+}

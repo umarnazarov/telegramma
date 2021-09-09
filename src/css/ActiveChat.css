@@ -1,0 +1,147 @@
+.no-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #18191D;
+    flex-grow: 1
+
+}
+
+.no-chat .no-chat-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    background-color: #282E33;
+    height: 26px;
+    min-width: 220px;
+    text-align: center;
+    border-radius: 20px
+}
+
+.active-user-conteiner {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    box-shadow: -1px -2px 2px -1px rgb(182 182 182 / 15%);
+}
+
+
+.active-user-conteiner .active-chat-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.fa-ellipsis-v {
+    font-size: 25px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.active-chat-header .active-user-info  {
+    flex: 1;
+    cursor: pointer;
+}
+
+.active-chat-header .active-user-info #active-user-name {
+    font-size: 15px
+}
+
+.active-chat-header .active-user-info .active-user-activity {
+    font-size: 13px;
+    font-weight: normal;
+    color: #A3A7AE;
+    
+}
+
+.active-user-conteiner .active-chat-form {
+    position: sticky;
+    bottom: 0;
+}
+
+.active-user-conteiner .active-user-chat {
+    padding: 15px;
+    overflow: auto
+}
+
+.active-user-conteiner .active-user-chat .active-you-chat  {
+    text-align: right;
+    margin-top: 10px
+}
+
+.active-user-conteiner .active-user-chat .active-you-chat .active-you-chat-text{
+    display: inline-block;
+    text-align: start;
+    background-color: #1966B3;
+    max-width: 50%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 15px 0px 15px 15px
+}
+
+.active-user-conteiner .active-user-chat .active-person-chat  {
+    text-align: left;
+    margin-top: 10px
+}
+
+.active-user-conteiner .active-user-chat .active-person-chat .active-person-chat-text{
+    display: inline-block;
+    background-color: #182533;
+    max-width: 50%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 0px 15px 15px 15px
+}
+
+.msg-time {
+    font-size: 10px;
+    color: #a7a7a7;
+    margin-bottom: 5px
+}
+
+.active-user-conteiner .active-chat-form .active-chat-input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #282E33;
+    color: white;
+
+}
+
+.styles_scrollable-div__prSCv {
+    flex-grow: 1;
+    background-color: #18191D
+}
+
+#send-spin {
+    position: absolute;
+    top: -18px;
+    right: -10px;
+    height: 75px;
+    width: 75px;
+}
+
+.form-icons {
+    position: absolute;
+    right: 20px;
+    top: 10px
+}
+
+.form-icon {
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;    
+    color: #8ec6ff
+
+}

@@ -1,0 +1,129 @@
+.chats-container {
+    position: relative;
+    width: 35%;
+    height: 100%;
+    overflow: auto
+}
+
+.chats-content {
+    height: 88.4%;
+}
+
+.chats-container .chats-content .chat-info {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    cursor: pointer
+}
+
+.chats-container .chats-content .chat-info:hover {
+    background-color: #353C43
+}
+
+
+.chats-container .chats-content .chat-info .chat-image img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.chat-text-info {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.chat-text-info .chat-text-right {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-text-info .chat-text-right .chat-time{
+    font-size: 12px;
+
+}
+
+.chat-text-info .chat-text-right .chat-new-msg-notif{
+    background-color: #3E546A;
+    font-size: 13px;
+    height: 20px;
+    min-width: 20px;
+    border-radius: 50%;
+    margin: 0px
+}
+
+.chats-container .chats-content .chat-info .chat-text-info .chat-text-main {
+    font-size: 15px
+}
+
+.chats-container .chats-content .chat-info .chat-text-info .chat-text-msg {
+    font-size: 13px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.active-chat-thumb {
+    background-color: #1966B3
+}
+
+.active-chat-thumb:hover {
+    background-color: #1966B3 !important
+}
+
+.fa-check-circle {
+    font-size: 11px;
+    margin-left: 3px;
+    color: #91c8ff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar:horizontal{
+    max-height: 5px
+}
+/* #68A3C9 */
+::-webkit-scrollbar-track {
+  background: #4A5056;
+  border-radius: 30px
+}
+
+::-webkit-scrollbar-thumb {
+  background: #878A8D;
+  border-radius: 30px
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A2A5A7;
+}
+
+.no-chat-in-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88%;
+    background-color: #282E33;
+    flex-grow: 1;
+}
+
+.no-chat-in-chat .no-chat-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    background-color: #3D444B;
+    height: 26px;
+    min-width: 220px;
+    text-align: center;
+    border-radius: 20px;
+}

@@ -1,0 +1,91 @@
+.contacts-container {
+    position: absolute;
+    top:155px;
+    z-index: 2;
+    left: 63.5%;
+    background-color: #282E33;
+    color: #fff;
+    transform: translate(-50%) scale(0); 
+    height: 300px;
+    overflow-y: auto;
+    width: 350px;
+    opacity: 0;
+    border-radius: 5px;
+    box-shadow:
+  0 0.7px 1.9px rgba(0, 0, 0, 0.026),
+  0 1.6px 4.3px rgba(0, 0, 0, 0.037),
+  0 2.9px 7.7px rgba(0, 0, 0, 0.046),
+  0 4.8px 12.8px rgba(0, 0, 0, 0.054),
+  0 7.9px 21.2px rgba(0, 0, 0, 0.063),
+  0 13.9px 37px rgba(0, 0, 0, 0.074),
+  0 30px 80px rgba(0, 0, 0, 0.1);
+    transition: opacity .2s ease-out
+}
+
+.contacts-container .contacts-navigation {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #282E33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contacts-container .contacts-navigation h1{
+    font-size: 16px;
+    color: #B9BBBD
+}
+
+.u-contact {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.u-contact:hover {
+    background-color: #353C43;
+    cursor: pointer
+}
+
+.u-contact .u-contact-name{ 
+    font-size: 19px
+}
+.u-contact .u-contact-username{ 
+    font-size: 13px;
+    font-weight: normal
+}
+
+
+.u-contact-img {
+    height: 50px;
+    width:50px;
+    object-fit: cover;
+    margin-right:20px;
+    border-radius: 50%;
+}
+
+#ContactsOn {
+    opacity: 1;
+    transform: translate(-50%) scale(1); 
+}
+
+#no-contact {
+    display: grid;
+    height: 70%;
+    place-content: center;
+    color: #B9BBBD;
+    font-size: 15px;
+    font-weight: bold
+}
+
+.status-toggle {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+
+}

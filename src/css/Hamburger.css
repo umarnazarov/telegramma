@@ -1,0 +1,97 @@
+.ham-container {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    height: 862.5%;
+    width: 70%;
+    top: 0;
+    left: 0;
+    transform: translateX(-200%);
+    transition: .4s transform ease-in-out;
+}
+
+.ham-container .ham-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    background-color: #18191D;
+    box-shadow: 0 0 10px #17212b;
+}
+
+.ham-container .ham-content .ham-user-info {
+    background-color: #1966B3;
+    height: 130px;
+    width: 100%;
+    padding: 20px
+}
+
+.ham-container .ham-content .ham-user-info .ham-user-image img{
+    height: 40px;
+    width:40px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.ham-container .ham-content .ham-user-info .ham-user-name {
+    font-size: 15px;
+    padding-left: 5px;
+    margin-top: 5px
+}
+
+.ham-container .ham-content .ham-user-info .ham-user-email {
+    font-size: 12.5px;
+    padding-left: 5px;
+    font-weight: normal;
+    margin-top: 5px
+
+}
+
+.ham-container .ham-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.ham-icon {
+    font-size: 17px;
+    margin-right: 10px;
+    font-weight: normal
+}
+
+.ham-container .ham-links .ham-link{
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    text-align: left;
+    background-color: inherit;
+    cursor: pointer
+}
+
+.ham-container .ham-links .ham-link:hover{
+    background-color: #232E3C
+}
+
+.ham-container .ham-version-info {
+    padding: 20px
+}
+
+.ham-container .ham-version-info p{
+    font-size: 11.5px;
+}
+
+#toggleOn {
+    transform: translateX(0%); 
+}
+
+.react-switch {
+    position: relative;
+    left: 60px;
+    top: 4px
+}

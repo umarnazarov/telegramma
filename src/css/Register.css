@@ -1,0 +1,141 @@
+.register-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #212121
+}
+
+.register-conteiner .register-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:5px
+}
+
+.register-main-text {
+    margin-bottom: 20px;
+    font-size: 29px;
+    text-align: center
+}
+
+.register-inf-text {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #acacac;
+    font-size: 15px;
+    font-weight: bold
+}
+
+.register-conteiner .register-form {
+    padding: 30px 50px;
+    color: white;   
+    width: 450px;
+}
+
+.register-conteiner .register-content .register-label {
+    position: relative;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    top: 18px;
+    left: 10px;
+    background-color: #212121;
+    width: 73px;
+    color: #acacac
+}
+
+.register-conteiner .register-content .register-input {
+    font-size: 17px;
+        outline: none;
+    border: none;
+    padding: 8px;
+    color: white;
+    background-color: #212121;
+    border: solid #3a3a3a 1px;
+    border-radius: 10px;
+}
+
+.register-conteiner .register-content .register-input:focus {
+    border: solid #1966B3 1px
+}
+
+
+.register-conteiner #register-btn {
+    width: 100%;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: inherit;
+    color: #1966B3;
+    border-radius: 10px;
+    transition: .1s background-color ease-in
+}
+
+.register-conteiner #register-btn:hover {
+    background-color: #242A2F;
+    color: white
+}
+
+.fa-paper-plane {
+    color: #1966B3;
+    font-size: 70px
+}
+
+.red-link {
+    margin-top: 15px;
+    font-size: 13.5px;
+    font-weight: bold;
+    color: #acacac
+}
+
+.red-link-tag {
+    text-decoration: none;
+    color: white
+}
+
+#usernameERR {
+    border: red 1px solid
+}
+
+#passwordERR {
+    border: red 1px solid;
+}
+
+#err-msg {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#nameERR {
+    border: rgb(255, 0, 0) 1px solid;
+}
+
+.x-reg, .d-reg {
+    position: absolute;
+    top: 40px;
+    right: 13px;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.d-reg {
+    color: rgb(0, 255, 0);
+}
+
+.x-reg {
+    color: rgb(255, 0, 0)
+}
+
+#reg-spin {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    display: block;
+}

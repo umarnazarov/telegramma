@@ -1,0 +1,135 @@
+.modal-container {
+    position: absolute;
+    top:155px;
+    z-index: 2;
+    left: 63.5%;
+    background-color: #282E33;
+    color: #fff;
+    transform: translate(-50%) scale(0); 
+    height: 300px;
+    width: 350px;
+    opacity: 0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow:
+  0 0.7px 1.9px rgba(0, 0, 0, 0.026),
+  0 1.6px 4.3px rgba(0, 0, 0, 0.037),
+  0 2.9px 7.7px rgba(0, 0, 0, 0.046),
+  0 4.8px 12.8px rgba(0, 0, 0, 0.054),
+  0 7.9px 21.2px rgba(0, 0, 0, 0.063),
+  0 13.9px 37px rgba(0, 0, 0, 0.074),
+  0 30px 80px rgba(0, 0, 0, 0.1)
+;
+    transition: opacity .2s ease-out
+}
+
+.modal-container .modal-content-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-container .modal-content-top h2{
+    font-size: 16px;
+    color: #B9BBBD
+
+}
+
+.user-modal{ 
+    font-weight: normal;
+    font-size: 17px;
+    cursor: pointer;
+    color: #B9BBBD
+}
+
+.user-modal:hover{ 
+    color: white
+}
+
+.modal-user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.modal-user-info .modal-user-img img{
+    height: 65px;
+    border-radius: 50%;
+    width: 65px;
+    object-fit: cover;
+    margin-right: 20px
+}
+
+.modal-user-info .modal-user-bio h1{
+    font-size: 23px
+}
+
+.modal-user-info .modal-user-bio p{
+    font-size: 13px
+}
+
+.modal-user-data {
+    margin-top: 15px
+}
+
+.modal-user-data .modal-user-part {
+    display: flex;
+    align-items: center;
+    border-top: solid 1px #B9BBBD;
+    padding-top: 15px;
+}
+
+.fa-info-circle {
+    font-weight: normal;
+    font-size:21px;
+    margin-right: 40px;
+    margin-left: 25px
+
+}
+
+.modal-user-data .modal-username {
+    font-size: 17px
+}
+
+
+.modal-user-data .modal-username-text {
+    font-size: 12.5px
+}
+
+.modal-btns {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+.modal-btns .modal-btn {
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: solid 1px #1E2838;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .1s ease-out
+}
+
+.modal-btns .modal-btn:hover {
+    background-color: #1966B3;
+    color: white
+}
+
+#modalOn {
+    opacity: 1;
+    transform: translate(-50%) scale(1); 
+
+}
+
+.modal-spiner {
+    position: absolute;
+    top: 0;
+    height: 90px;
+    width: 90px;
+}

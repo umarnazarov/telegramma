@@ -1,0 +1,91 @@
+#chats-content-head {
+    position: sticky;
+    top: 0
+}
+
+.chats-header-conteiner {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 15px;
+    background-color: #282E33
+}
+
+.fa-bars {
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer
+}
+
+.chats-header-conteiner .search-form {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.chats-header-conteiner .search-chat {
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: #3D444B;
+    color: #fff;
+    font-size: 15px
+}
+
+.chats-header-conteiner .chats-header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.founded-users {
+    display: flex;
+    background-color: #282E33;
+    overflow-x: hidden;
+    user-select: none;
+    cursor:grab;
+}
+.found-image {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.found-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 10px;
+    min-width: 100px;
+    cursor: pointer;
+}
+.found-user:hover {
+    background-color: #353C43
+}
+
+.found-name {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold
+}
+
+.found-username {
+    font-size: 11px;
+    text-align: center;
+
+}
+
+#notFound {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+#user-cred {
+    display: flex;
+    align-items: center;;
+    flex-direction: column-reverse
+}
